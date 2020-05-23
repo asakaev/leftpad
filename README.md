@@ -5,7 +5,7 @@ String left pad heavily inspired by [left-pad](https://github.com/left-pad/left-
 ## Usage
 
 ```scala
-import com.github.asakaev.leftpad.string._
+import io.github.asakaev.leftpad.string._
 
 leftPad("foo", 5)
 // => "  foo"

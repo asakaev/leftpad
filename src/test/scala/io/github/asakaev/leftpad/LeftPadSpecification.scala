@@ -1,6 +1,6 @@
-package com.github.asakaev.leftpad
+package io.github.asakaev.leftpad
 
-import com.github.asakaev.leftpad.core.leftPad
+import core.leftPad
 import org.scalacheck.Arbitrary.arbitrary
 import org.scalacheck.Prop.forAll
 import org.scalacheck.{Gen, Properties}

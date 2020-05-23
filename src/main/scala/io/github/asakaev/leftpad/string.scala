@@ -1,4 +1,4 @@
-package com.github.asakaev.leftpad
+package io.github.asakaev.leftpad
 
 object string {
 
