@@ -1,4 +1,5 @@
 ThisBuild / scalaVersion := "2.13.2"
+ThisBuild / version := "0.1.0"
 
 lazy val leftpad = (project in file("."))
   .settings(
