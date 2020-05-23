@@ -1,3 +1,5 @@
+enablePlugins(JavaAppPackaging)
+
 ThisBuild / scalaVersion := "2.13.2"
 ThisBuild / organization := "com.github.asakaev"
 
