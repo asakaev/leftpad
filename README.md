@@ -27,3 +27,7 @@ leftPad("1", 2, '0')
 leftPad("17", 5, 0)
 // => "00017"
 ```
+
+## License
+
+leftpad is licensed under the MIT license.
