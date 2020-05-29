@@ -25,7 +25,7 @@ ThisBuild / developers := List(
   )
 )
 
-ThisBuild / description := "String left pad."
+ThisBuild / description := "leftpad"
 ThisBuild / licenses := List(
   "MIT License" -> new URL("https://www.opensource.org/licenses/mit-license")
 )
