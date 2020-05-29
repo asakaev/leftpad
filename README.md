@@ -1,14 +1,16 @@
-## leftpad
+# leftpad
+
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.asakaev/leftpad_2.13.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.asakaev/leftpad_2.13)
 
 String left pad heavily inspired by [left-pad](https://github.com/left-pad/left-pad/).
 
-## Install
+### Install
 
 ```
-libraryDependencies += "io.github.asakaev" %% "leftpad" % "0.1.0"
+libraryDependencies += "io.github.asakaev" %% "leftpad" % "0.1.1"
 ```
 
-## Usage
+### Usage
 
 ```scala
 import io.github.asakaev.leftpad.string._
