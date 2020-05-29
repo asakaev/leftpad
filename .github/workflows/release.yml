@@ -9,9 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: olafurpg/setup-scala@v2
-      - uses: olafurpg/setup-gpg@v2
       - name: Publish ${{ github.ref }}
-        run: sbt ci-release
+        run: gpg --version
         env:
           PGP_PASSPHRASE: ${{ secrets.PGP_PASSPHRASE }}
           PGP_SECRET: ${{ secrets.PGP_SECRET }}
