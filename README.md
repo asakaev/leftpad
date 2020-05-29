@@ -2,6 +2,12 @@
 
 String left pad heavily inspired by [left-pad](https://github.com/left-pad/left-pad/).
 
+## Install
+
+```
+libraryDependencies += "io.github.asakaev" %% "leftpad" % "0.1.0"
+```
+
 ## Usage
 
 ```scala
