@@ -33,5 +33,3 @@ ThisBuild / homepage := Some(url("https://github.com/asakaev/leftpad"))
 
 // Remove all additional repository other than Maven Central from POM
 ThisBuild / pomIncludeRepository := { _ => false }
-
-usePgpKeyHex("C7662160E20FAE3F9906F6CF9E533EC9643F81DD")
