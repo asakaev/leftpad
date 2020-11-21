@@ -1,9 +1,9 @@
-ThisBuild / scalaVersion := "2.13.2"
+ThisBuild / scalaVersion := "2.13.4"
 
 lazy val leftpad = (project in file("."))
   .settings(
     name := "leftpad",
-    libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.14.3" % "test"
+    libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.15.1" % "test"
   )
 
 ThisBuild / organization := "io.github.asakaev"
