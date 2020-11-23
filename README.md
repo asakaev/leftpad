@@ -1,14 +1,14 @@
 # leftpad
 
 [![build](https://github.com/asakaev/leftpad/workflows/build/badge.svg)](https://github.com/asakaev/leftpad/actions)
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.asakaev/leftpad_2.13.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.asakaev/leftpad_2.13)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.asakaev/leftpad_2.13)](https://maven-badges.herokuapp.com/maven-central/io.github.asakaev/leftpad_2.13)
 
 String left pad heavily inspired by [left-pad](https://github.com/left-pad/left-pad/).
 
 ### Install
 
 ```
-libraryDependencies += "io.github.asakaev" %% "leftpad" % "0.1.1"
+libraryDependencies += "io.github.asakaev" %% "leftpad" % "<version>"
 ```
 
 ### Usage

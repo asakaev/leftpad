@@ -32,6 +32,6 @@ ThisBuild / licenses := List(
 ThisBuild / homepage := Some(url("https://github.com/asakaev/leftpad"))
 
 // Remove all additional repository other than Maven Central from POM
-ThisBuild / pomIncludeRepository := { _ => false }
+ThisBuild / pomIncludeRepository := (_ => false)
 
 ThisBuild / publishTo := sonatypePublishToBundle.value
