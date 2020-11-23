@@ -10,8 +10,7 @@ String left pad heavily inspired by [left-pad](https://github.com/left-pad/left-
 ```
 libraryDependencies ++= List(
   "io.github.asakaev" %% "leftpad-core",
-  "io.github.asakaev" %% "leftpad-refined",
-  "io.circe" %% "circe-parser"
+  "io.github.asakaev" %% "leftpad-refined"
 ).map(_ % "<version>")
 ```
 
