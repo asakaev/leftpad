@@ -4,6 +4,7 @@ on:
     branches: [master, main]
 jobs:
   test:
+    name: sbt test
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v1
