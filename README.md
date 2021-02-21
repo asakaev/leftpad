@@ -7,7 +7,7 @@ String left pad heavily inspired by [left-pad](https://github.com/left-pad/left-
 
 ### Install
 
-```
+```scala
 libraryDependencies ++= List(
   "io.github.asakaev" %% "leftpad-core",
   "io.github.asakaev" %% "leftpad-refined"
