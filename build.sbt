@@ -38,6 +38,6 @@ lazy val refined = (project in file("modules/refined"))
   .settings(
     name := "leftpad-refined",
     description := "leftpad refined",
-    libraryDependencies += "eu.timepit" %% "refined" % "0.9.26"
+    libraryDependencies += "eu.timepit" %% "refined" % "0.9.29"
   )
   .dependsOn(core)
